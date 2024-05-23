@@ -1,0 +1,9 @@
+.icon {
+  display: inline;
+  position: relative;
+}
+
+.badgeIcon {
+  position: absolute;
+  border-radius: 50%;
+}

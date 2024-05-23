@@ -1,0 +1,19 @@
+.image {
+  max-width: 800px;
+  max-height: 400px;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: 0% 20%;
+}
+
+.round {
+  max-width: 250px;
+  max-height: 250px;
+  aspect-ratio: 1;
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: 55%;
+}

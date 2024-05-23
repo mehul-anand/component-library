@@ -1,0 +1,58 @@
+.primary {
+  background-color: #846eee;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.iconButton {
+  display: inline-flex;
+  gap: 10px;
+  align-items: center;
+  background: none;
+  font-size: 1.1rem;
+}
+
+.addIcon {
+  color: #4caf50;
+}
+
+.deleteIcon {
+  color: #e53935;
+}
+
+.editIcon {
+  color: #846eee;
+}
+
+.searchIcon {
+  color: #1565c0;
+}
+
+.floatingButton {
+  padding: 10px;
+  border-radius: 50%;
+  background-color: white;
+  border: 1px solid rgba(117, 116, 116, 0.493);
+  display: inline-flex;
+}
+
+.addFloat {
+  background-color: #4caf50;
+  color: white;
+}
+
+.deleteFloat {
+  background-color: #e53935;
+  color: white;
+}
+
+.editFloat {
+  background-color: #846eee;
+  color: white;
+}
+
+.searchFloat {
+  background-color: #1565c0;
+  color: white;
+}

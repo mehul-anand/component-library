@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap");
+
+:root {
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semi-bold: 600;
+  --font-weight-bold: 700;
+
+  --font-size-xxxxl: 1.8rem;
+  --font-size-xxxl: 1.6rem;
+  --font-size-xxl: 1.4rem;
+  --font-size-xl: 1.2rem;
+  --font-size-lg: 1.1rem;
+  --font-size-md: 1rem;
+  --font-size-smallText: 0.5rem;
+
+  --spacing-unit: 1em;
+  --spacing-xxxs: calc(0.15 * var(--spacing-unit));
+  --spacing-xxs: calc(0.25 * var(--spacing-unit));
+  --spacing-xs: calc(0.5 * var(--spacing-unit));
+  --spacing-sm: calc(0.75 * var(--spacing-unit));
+  --spacing-md: calc(1.25 * var(--spacing-unit));
+  --spacing-lg: calc(2 * var(--spacing-unit));
+  --spacing-xl: calc(3.25 * var(--spacing-unit));
+  --spacing-xxl: calc(5.25 * var(--spacing-unit));
+  --spacing-xxxl: calc(5.5 * var(--spacing-unit));
+
+  --component-padding: var(--spacing-sm);
+
+  --width-unit: 10em;
+  --width-xxxs: calc(1.7 * var(--width-unit));
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: "Raleway", sans-serif;
+  color: #343434;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+h1 {
+  font-size: var(--font-size-xxxxl);
+}
+h2 {
+  font-size: var(--font-size-xxxl);
+}
+h3 {
+  font-size: var(--font-size-xxl);
+}
+h4 {
+  font-size: var(--font-size-xl);
+}
+h5 {
+  font-size: var(--font-size-lg);
+}
+h6 {
+  font-size: var(--font-size-md);
+}
+p {
+  font-size: var(--font-size-lg);
+}
+span,
+sub {
+  font-size: var(--font-size-copyrightText);
+}
+pre {
+  background-color: #f0f0f0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  font-family: monospace;
+  max-width: 100%;
+  overflow-x: auto;
+  white-space: pre-wrap;
+}
+.avatarSection {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: baseline;
+  gap: 2%;
+}
+a {
+  text-decoration: none;
+  color: black;
+}

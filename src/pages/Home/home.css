@@ -1,0 +1,21 @@
+.home {
+  height: 100vh;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2%;
+}
+
+.home > a {
+  text-decoration: none;
+  padding: 5px;
+  background-color: #846eee;
+  border-radius: 5px;
+  color: white;
+  font-weight: bolder;
+}
+
+.home > h1 {
+  color: #846eee;
+}

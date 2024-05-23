@@ -1,0 +1,27 @@
+.alert {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 1%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.done {
+  background-color: #4dff73;
+  color: #195800;
+}
+
+.dangerous {
+  background-color: #ff4d4d;
+  color: #b60303;
+}
+
+.warning {
+  background-color: #ffff4d;
+  color: #777703;
+}
+
+.info {
+  background-color: #87cfeb;
+  color: #0b61bd;
+}

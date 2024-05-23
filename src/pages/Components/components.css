@@ -1,0 +1,39 @@
+.homeLink {
+  display: block;
+  margin: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+.homeLink > span {
+  color:#846eee;
+  font-size: 40px;
+}
+
+.components {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  gap: 1%;
+  height: 80vh;
+}
+
+.component {
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+  background-color: #846eee;
+  border: 1px #846eee solid;
+  flex-basis: 24%;
+  padding: 10px;
+  margin-top: 1%;
+  text-align: center;
+  transition: background-color 0.3s ease; 
+}
+
+.component:hover {
+  color:#846eee;
+  background-color: ivory; 

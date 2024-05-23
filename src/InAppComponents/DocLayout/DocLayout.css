@@ -1,0 +1,21 @@
+.layout {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 1%;
+}
+.aside {
+  flex-basis: 19%;
+}
+.aside > ul {
+  height: 79vh;
+  list-style: none;
+  display: flex;
+  flex-flow: column wrap;
+  gap: 2%;
+}
+.each {
+  flex-basis: 80%;
+}
