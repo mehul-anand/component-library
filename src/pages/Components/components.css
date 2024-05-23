@@ -7,7 +7,7 @@
 }
 
 .homeLink > span {
-  color:#846eee;
+  color: #846eee;
   font-size: 40px;
 }
 
@@ -31,9 +31,10 @@
   padding: 10px;
   margin-top: 1%;
   text-align: center;
-  transition: background-color 0.3s ease; 
+  transition: background-color 0.3s ease;
 }
 
 .component:hover {
-  color:#846eee;
-  background-color: ivory; 
+  color: #846eee;
+  background-color: ivory;
+}
